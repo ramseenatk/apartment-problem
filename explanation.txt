@@ -1,0 +1,5 @@
+initialize a vector that stores the farthest distance of a particular service for every block with INT_MIN.
+Now for every block, go through every requirement and find the closest block that satisfies that 
+requirements and change vector value for that block with a minimum of the current value and 
+maximum distance for any requirement.
+At the end return the index the minimum value in the vector.
